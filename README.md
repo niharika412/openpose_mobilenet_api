@@ -1,9 +1,8 @@
-<<<<<<< HEAD
 # OpenPose MobileNet API
 
 Flask api for human keypoint detection using OpenPose API
 
-![image](https://github.com/niharika412/openpose_mobilenet_api/master/output.jpg)
+![image](https://github.com/niharika412/openpose_mobilenet_api/blob/master/output.jpg)
 
 ### Prerequisites
 
@@ -32,7 +31,6 @@ Select the input image on the openpose algorithm is to be applied. Click Submit 
 
 ## Results
 
-![image](https://github.com/niharika412/openpose_mobilenet_api/op.gif)
+![image](https://github.com/niharika412/openpose_mobilenet_api/blob/master/op.gif)
 =======
 # openpose_mobilenet_api
->>>>>>> 68d942a9dd82346280ec403ccd6591222e4be124
