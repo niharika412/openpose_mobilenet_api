@@ -1,0 +1,67 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Open Pose</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #add8e6;
+      padding: 25px;
+    }
+  </style>
+</head>
+<body>
+
+
+<div class="jumbotron" >
+  <div class="container text-center">
+    <h1 className="lead">Openpose MobileNet</h1>      
+    <h2 className="display-4">Keypoint Detection</h2>
+   
+  </div>
+</div>
+  
+<div class="container-fluid bg-3 text-center">    
+<form action="/success" method="post" enctype="multipart/form-data" >
+
+  <h3>Choose input image to detect keypoints</h3><br>
+<br/>
+<br/><br/>
+
+<div class="row">
+  <div >
+    
+     
+      <span class="btn btn-default btn-file">
+        <input type="file" name="file" required>
+      </span>
+
+    <input type="submit" value="Upload your image" class="btn btn-primary" required>
+  </form>
+  </div>
+  
+</div>
+</div><br>
+
+</div><br>
+
+</body>
+<!-- Footer -->
+
+
+</html>

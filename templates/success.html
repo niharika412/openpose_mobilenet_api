@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Open Pose</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #add8e6;
+      padding: 25px;
+    }
+  </style>
+</head>
+
+<body>
+
+
+<div class="jumbotron">
+  <div class="container text-center">
+    <h2 className="display-4">Open Pose Keypoint Detection</h2>      
+   
+  </div>
+</div>
+  
+<div class="container-fluid bg-3 text-center">    
+  
+  <div class="row">
+    <div class="col-sm-2">
+      </div>
+    <div class="col-sm-4"> 
+      <h3>Before image</h3>
+      <img src="{{ url_for('display_image', filename=filename1) }}" + class="img-responsive" style="height: 100%; width: 100%; object-fit: contain" alt="Image">
+    </div>
+    <div class="col-sm-4"> 
+      <h3>After image</h3>
+      <img src="{{ url_for('display_image', filename=filename2) }}" + class="img-responsive" style="height: 100%; width: 100%; object-fit: contain" alt="Image">
+    </div>
+     <div class="col-sm-2">
+       </div>
+    
+  </div>
+<br/>
+<br/>
+
+</div>
+
+</body>
+</html>
