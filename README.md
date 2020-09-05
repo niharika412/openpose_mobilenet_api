@@ -26,7 +26,7 @@ Select the input image on the openpose algorithm is to be applied. Click Submit 
 
 ## Built With
 
-* [PyTorch](https://pytorch.org/) -  Machine learning library
+* [OpenPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) -  Machine learning library
 * [Flask](http://flask.pocoo.org/) - web framework
 
 ## Results
