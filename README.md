@@ -6,7 +6,7 @@ Flask api for human keypoint detection using OpenPose API
 
 ### Prerequisites
 
-* PyTorch
+* opencv
 * Pandas
 * Numpy
 * Flask
